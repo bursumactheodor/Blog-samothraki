@@ -1,0 +1,179 @@
+
+*{
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+  	background-color: lightblue;
+
+}
+header {	
+	margin:0;
+	padding:0px 0px 0px 0px;
+	display:flex;
+	flex-flow:row nowrap;
+	background-color: white;
+	align-items:center;
+}
+.cuprins
+{
+	border: 1px solid black;
+ 	padding: 10px  10px;
+	width: 250px;
+}
+
+.container
+ {
+  	 padding: 10px ;
+  	 display: flex;
+	 align-items:center;
+	 justify-content:space-between;	
+}
+.container-img-legend
+{
+	border: 1px solid black;
+ 	padding: 10px ;
+
+}
+  .container-img
+ {	
+    	margin: 0px;
+	padding: 0px ;
+    	width: 250px;
+   	
+  }
+  .container-txt 
+{		
+  	 padding: 0px 10px ;
+	 justify-content:space-between;
+ }
+
+
+
+header .header-logo {
+		
+		margin:0;
+		padding:0px 10px 0px 10px;		
+		display:flex;
+		width:20%;	
+		justify-content:space-around;		
+		background-color:white;		
+		align-items:center;
+}
+header h1{
+	font-size:45px;
+	margin:0;	
+	padding:0px 0px 0px 90px;
+	background-color:white;
+	width:80%;
+}
+
+header img{
+	width:100px;
+	height:100px;
+}
+h2 {
+  	color: blue;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:space-around;
+	background-color:green;
+	list-style-type:none;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+	font-size:2rem;
+}
+
+nav li {
+	padding:1rem;
+	width:50%;
+	text-align:center;
+	cursor:poiner;
+
+
+}
+nav li:hover{
+	background-color:black;
+	
+}
+
+p {
+  	font-family: sans-serif;
+  	font-size:20px;
+}
+
+footer p{	
+  	font-size:15px;
+	margin:0;		
+}
+
+main, footer p {
+	background-color:white;
+	margin: 0,10%;
+	padding: 2% 10%;
+}
+
+ ul {
+	margin:0px;
+	padding:10px;		
+	list-style-type:none;	
+}
+
+ a{
+	
+	text-decoration:none;
+	font-size:1.1rem;
+}
+
+.tasta{
+	width:50px;
+	height:50px;
+	font-size:25px;
+}
+.line {
+	display:flex;
+	justify-content:center;
+	
+	
+}
+.linie-ecran {
+	display:flex;
+	justify-content:center;
+		
+}
+
+
+#ecran{
+	font-size:25px;
+	height:40px;
+	width:200px;
+	border: 1px solid black;
+	background-color:lightblue;
+	text-align: right;
+	padding: 10px 0px;	
+}
+.linie-ceas {
+	display:flex;
+	justify-content:center;
+}
+
+#ecran-ceas{
+	font-size:100px;
+	height:200px;
+	width:500px;
+	border: 2px solid black;
+	background-color:yellow;
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+}
+
+
